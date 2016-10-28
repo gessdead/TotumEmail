@@ -1,0 +1,5 @@
+node_modules/
+!/projects/kilogram_alpha/
+.DS_Store
+styles.css
+.idea
