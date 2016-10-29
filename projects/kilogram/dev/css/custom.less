@@ -20,10 +20,11 @@
   text-align: center;
   padding-top: 5px;
 
-  a {
+  span {
+    font-family: @font-family;
     display: inline;
     padding: 5px;
-    font-size: @font-size;
+    font-size: 12px;
   }
 }
 .wide-btn {
@@ -52,6 +53,7 @@
   &--bold {
     font-weight: bold;
     color: @ttl-color;
+
   }
 
   &--td-left {
@@ -68,23 +70,18 @@
 
   &--td-btn {
     padding-left: 350px;
-    padding-top: 15px;
-    a {
-      font-size: 20px;
-      line-height:normal;
-      padding: 10px 20px;
-      background-color: @btn-color;
-      color: @bg-color;
-    }
+    padding-top: 5px;
   }
 
   &--td-center {
     font-size: 18px;
     text-align: center;
     color: @bg-color;
-    padding:100px 60px 45px;
+    padding-top: 110px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 35px;
     font-family: @ptsans;
-    letter-spacing: 1px;
 
     span {
       letter-spacing: normal;
@@ -95,17 +92,20 @@
 
 .why-we {
   &--td-center {
-    padding: 20px 0 30px;
+    padding-top:22.5px;
+    padding-bottom: 15px;
     font-family: @ptsans;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: @brand-color;
-    letter-spacing: 1px;
   }
 
   &--td-center_mod {
     color: @color;
-    padding: 50px 0 20px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
     font-weight: bold;
 
     span {
@@ -115,15 +115,17 @@
 
   &--td-center_mod2 {
     color: @btn-color;
-    padding: 20px 0 0;
+    padding-top: 9px;
+    padding-bottom: 0;
 
     span {
+      font-size: @font-size;
       color: @ttl-color;
     }
   }
 
   &--td-text {
-    padding: 25px 20px 5px;
+    padding: 5px 20px 5px;
     font-family: @ptsans;
     font-size: 14px;
     color: @brand-color;
@@ -131,9 +133,12 @@
 
   &--td-text_mod {
     text-align: center;
-    padding: 15px 100px 5px;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 25px;
     font-family: @ptsans;
-    font-size: 16px;
+    font-size: 18px;
     color: @color;
      
     span {
@@ -144,7 +149,10 @@
 
   &--td-text_mod2 {
     text-align: center;
-    padding: 10px 150px 5px;
+    padding-top: 0;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 5px;
     font-family: @ptsans;
     font-size: 16px;
     color: @color;
@@ -156,32 +164,22 @@
   }
 
   &--td-btn {
-    padding: 20px 40px;
-    text-align: center;
-    a {
-      font-size: 16px;
-      line-height: 20px;
-      padding: 10px 60px;
-      background-color: @btn-color;
-      color: @bg-color;
-    }
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
-  &--td-btn_mod {
-    padding: 30px 40px;
-    text-align: center;
-    a {
-      font-size: 20px;
-      padding: 10px 30px;
-      background-color: @btn-color;
-      color: @bg-color;
-    }
+  &--td-arrow {
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
   
   &--td-addres {
     text-align: center;
     color: @bg-color;
-    padding:100px 40px 20px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
     font-size:20px;
     font-weight: bold;
     font-family: @ptsans;
