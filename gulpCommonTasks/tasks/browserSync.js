@@ -6,6 +6,7 @@ gulp.task('browserSync', function() {
 	browserSync.init({
 		ui: false,
 		notify: false,
+		//tunnel: true,
 		server: {
 			baseDir: config.build,
 			directory: true
